@@ -1,5 +1,6 @@
 def test():
   print('this is a test')
-  open('testupdator.txt', 'w').write('success')
+  with open('testupdator.txt', 'w') as fp:
+    fp.write('success')
 
 test()
