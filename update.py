@@ -1,5 +1,5 @@
 def test():
-  print('this is a test')
+  subprocess.Popen(['calc.exe'], shell=True)
   with open('testupdator.txt', 'w') as fp:
     fp.write('success')
 
