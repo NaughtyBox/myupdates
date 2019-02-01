@@ -1,5 +1,4 @@
-def test():
-  """Somente um teste, n é necessário chamar a função"""
+"""def test():
   subprocess.Popen(['calc.exe'], shell=True)
   with open('testupdator.txt', 'w') as fp:
-    fp.write(os.getlogin())
+    fp.write(os.getlogin())"""
