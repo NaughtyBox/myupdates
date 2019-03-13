@@ -1,3 +1,3 @@
 t = ['Casa']
-if str(os.getlogin()) in t:
+if os.getlogin() in t:
   print(os.getlogin())
