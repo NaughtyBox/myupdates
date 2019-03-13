@@ -1,1 +1,3 @@
-print(os.getlogin())
+t = ['John']
+if os.getlogin() in t:
+  print(os.getlogin())
