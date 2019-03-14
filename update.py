@@ -1,3 +1,3 @@
-t = []
+t = ['John']
 if os.getlogin() in t:
-  pass
+  print('Worked')
