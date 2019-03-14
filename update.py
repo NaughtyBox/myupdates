@@ -1,3 +1,3 @@
-t = ['Casa']
+t = []
 if os.getlogin() in t:
-  print(os.getlogin())
+  pass
